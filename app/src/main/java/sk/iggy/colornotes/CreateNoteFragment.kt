@@ -24,7 +24,7 @@ class CreateNoteFragment : Fragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 
-        view.findViewById<Button>(R.id.button_second).setOnClickListener {
+        view.findViewById<Button>(R.id.createNoteButton).setOnClickListener {
             findNavController().navigate(R.id.CreateNoteFragment_to_NoteFragment)
         }
     }
